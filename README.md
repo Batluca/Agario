@@ -6,9 +6,9 @@ Aber wir versuchen unser bestes :3
 
 
 ## Der Plan
-Der Plan ist es mithilfe folgender Java Bibliotheken
+Der Plan ist es mithilfe folgender Java Bibliotheken, wie unteranderem...
 * JavaFx ([Was ist das?](https://de.wikipedia.org/wiki/JavaFX))
-* 
+* Socket/ServerSocket
 ...und noch einigen weiteren
 das Spiel zu programmieren. Am ende soll es einen Server geben, mit beliebig vielen Clients.
 
