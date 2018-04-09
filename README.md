@@ -4,7 +4,8 @@ Wir versuchen das Browserspiel [Agario](https://Agar.io) in java zu programmiere
 Es ist unser erstes Spiel und wird vielleicht noch nicht so ganz perfekt.
 Aber wir versuchen unser bestes, vorallem erstmal überhaupt die Grundfunktionen
 zum laufen zu bringen.
-alsoo...**CHALLENGE ACCEPTED :3**
+
+Alsoo...**CHALLENGE ACCEPTED :3**
 
 
 ## Java Classen
@@ -16,6 +17,7 @@ Daher haben wir das Spiel in folgende Classen aufgeteilt:
 * **Player** die Spieler
 * **PlayerCell** die Cellen der Spieler
 * **EjectedMass** die Masse Stückchen, die ein Spieler abwerfen kann
+
 und es werden natürlich noch einige weitere dazukommen :D
 
 
