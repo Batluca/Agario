@@ -10,9 +10,9 @@ Der Plan ist es mithilfe folgender Java Bibliotheken
 * JavaFx ([Was ist das?](https://de.wikipedia.org/wiki/JavaFX))
 * 
 ...und noch einigen weiteren
-das Spiel Agario zu programmieren. Mit einem Server und beliebig vielen Clients.
+das Spiel zu programmieren. Am ende soll es einen Server geben, mit beliebig vielen Clients.
 
-Für den Anfang wird es aber erstmal schwierig genug für uns, 
+Für den Anfang wird es für uns aber erstmal schwierig genug, 
 überhaupt die Grundfunktionen des Spiels zum Laufen zu bringen.
 Aber... 
 * wir sind motiviert, das hier zu machen
