@@ -6,11 +6,12 @@ Aber wir versuchen unser bestes :3
 
 
 ## Der Plan
-Der Plan ist es mithilfe folgender Java Bibliotheken, wie unteranderem...
+Der Plan ist es mithilfe folgenden Java Bibliotheken, wie unteranderem...
 * JavaFx ([Was ist das?](https://de.wikipedia.org/wiki/JavaFX))
 * Socket/ServerSocket
 ...und noch einigen weiteren
 das Spiel zu programmieren. Am ende soll es einen Server geben, mit beliebig vielen Clients.
+Mit der Properties Classe aus dem Util Package sollen zusätzlich alle konststanten Variablen einstellbar gemacht werden.
 
 Für den Anfang wird es für uns aber erstmal schwierig genug, 
 überhaupt die Grundfunktionen des Spiels zum Laufen zu bringen.
