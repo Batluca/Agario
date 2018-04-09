@@ -5,16 +5,30 @@ Es ist unser erstes Spiel und ist vielleicht noch nicht so ganz perfekt.
 Aber wir versuchen unser bestes :3
 
 
-### Java Classen
-Wir versuchen auch das ganze möglichst objektorientiert zu nachen.
-Daher haben wir das Spiel in folgende Classen aufgeteilt:
+## Der Plan
+Der Plan ist es mithilfe folgender Java Bibliotheken
+* JavaFx ([Was ist das?](https://de.wikipedia.org/wiki/JavaFX))
+* 
+...und noch einigen weiteren
+das Spiel Agario zu programmieren. Mit einem Server und beliebig vielen Clients.
 
+Für den Anfang wird es aber erstmal schwierig genug für uns, 
+überhaupt die Grundfunktionen des Spiels zum Laufen zu bringen.
+Aber... 
+* wir sind motiviert, das hier zu machen
+* und können dazu nur sagen... **CHALLENGE ACCEPTED xP**
+
+
+## Die Java Classen
+Wir versuchen auch das ganze möglichst objektorientiert zu machen.
+Daher haben wir das Spiel in folgende Classen aufgeteilt:
 * **Cell** die Oberclasse aller Spielobjekte (Player ausgeschlossen)
 * **Pellet** die Cellen, die überall herrumligen um gegessen zu werden
 * **Virus** die Vieren
 * **Player** die Spieler
 * **PlayerCell** die Cellen der Spieler
 * **EjectedMass** die Masse Stückchen, die ein Spieler abwerfen kann
+und es werden natürlich noch einige weitere dazukommen :D
 
 
 ### Autoren
