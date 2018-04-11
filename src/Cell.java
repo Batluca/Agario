@@ -10,18 +10,30 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 
 public class Cell {
-  	private double x;
-  	private double y;
-  	private double radian;
-  	private Node node;
+    private double x;
+    private double y;
+    private double radian;
+    private Node node;
   
-	public int getMass();
-	public double getRadian() {
-      	return radian;
+	public int getMass() {
+        return mass;
     }
-	public double getX() {}
-	public double getY();
-  	public Node getNode();
+    public void setMass(int mass) {
+        this.mass = mass;
+        this.radian = Math.sqrt(100 * mass);
+    }
+    public double getRadian() {
+        return radian;
+    }
+	public double getX() {
+        return x;
+    }
+	public double getY() {
+        return y;
+    }
+  	public Node getNode() {
+        return node;
+    }
 }
 
 public interface CanEat {
