@@ -14,11 +14,12 @@ public class Player {
           	cell.split()
         }
     }
-  
   	private createCell(double x, double y) {
       	cells.append(new PlayerCell(x, y, createColor()));
     }
-  
+    private void deleteCell() {
+
+    }
   	private static Color createColor() {
 		List<Integer> values = new ArrayList<>(); 
 		values.add(255);
@@ -42,20 +43,19 @@ public class Player {
       	return name;
     }
   	
-	private class PlayerCell implements Cell, CanEat {
-		private int mass;
-		private double radian;
-		private double x;
-		private double y;
-	  	private Node node;
-	  	private final Color color;
-	  	
-	  	public PlayerCell(double x, double y, Color color) {
+  	//inner class
+	private class PlayerCell extends Cell implements CanEat {
+		
+	  	public PlayerCell(double x, double y, double radian) {
 	      	this.x = x;
 	      	this.y = y;
-	      	this.color = color;
+	      	this.randian = randian;
 	      	//create cell body
-	      	Circle cellBody = new Circle(getX(), getY(), getRadian(), getColor());
+	      	Circle node = new Circle(x, y, radian, getColor());
+	    }
+	    public PlayerCell(double x, double y, int mass) {
+	    	setRadian(mass);
+	      	this(x, y, getRadian());
 	    }
 	  	public PlayerCell(double x, double y) {
 	      	this(x, y, Settings.START_MASS);
@@ -65,7 +65,7 @@ public class Player {
 	  	//methods
 	  	public void split();
 	  	public void eject();
-	  	public void delete
+	  	public void delete();
 	  
 	  	public void eat(Cell cell) {
 	      	
@@ -84,6 +84,10 @@ public class Player {
 	  	//getters & setters
 	  	public int getMass() {
 	      	return mass;
+	    }
+	    public void setMass(int mass) {
+	    	this.mass = mass;
+	    	this.radian = Math.sqrt(100 * mass);
 	    }
 		public double getRadian() {
 	      	return radian;
